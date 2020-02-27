@@ -1,0 +1,59 @@
+2020-02-02 14:33:28,105 - D:/罗京/Projects/cmdb/cmdb/__init__.py[line:70] - ERROR: (mysql.connector.errors.IntegrityError) 1452 (23000): Cannot add or update a child row: a foreign key constraint fails (`cmdb`.`field`, CONSTRAINT `field_ibfk_1` FOREIGN KEY (`schema_id`) REFERENCES `schema` (`id`))
+[SQL: INSERT INTO field (createtime, updatetime, is_delete, name, meta, `desc`, schema_id) VALUES (%(createtime)s, %(updatetime)s, %(is_delete)s, %(name)s, %(meta)s, %(desc)s, %(schema_id)s)]
+[parameters: {'createtime': datetime.datetime(2020, 2, 2, 14, 33, 28, 72871), 'updatetime': datetime.datetime(2020, 2, 2, 14, 33, 28, 72871), 'is_delete': 0, 'name': 1, 'meta': '{"nullable": true, "unique": false, "mutiple": false, "relation": {}, "len": null}', 'desc': 3, 'schema_id': 2}]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+2020-02-02 14:33:28,105 - D:/罗京/Projects/cmdb/cmdb/__init__.py[line:70] - ERROR: (mysql.connector.errors.IntegrityError) 1452 (23000): Cannot add or update a child row: a foreign key constraint fails (`cmdb`.`field`, CONSTRAINT `field_ibfk_1` FOREIGN KEY (`schema_id`) REFERENCES `schema` (`id`))
+[SQL: INSERT INTO field (createtime, updatetime, is_delete, name, meta, `desc`, schema_id) VALUES (%(createtime)s, %(updatetime)s, %(is_delete)s, %(name)s, %(meta)s, %(desc)s, %(schema_id)s)]
+[parameters: {'createtime': datetime.datetime(2020, 2, 2, 14, 33, 28, 72871), 'updatetime': datetime.datetime(2020, 2, 2, 14, 33, 28, 72871), 'is_delete': 0, 'name': 1, 'meta': '{"nullable": true, "unique": false, "mutiple": false, "relation": {}, "len": null}', 'desc': 3, 'schema_id': 2}]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+2020-02-05 18:15:55,291 - D:\罗京\Projects\cmdb\cmdb\__init__.py[line:275] - ERROR: 'NoneType' object has no attribute 'multiple'
+2020-02-05 18:17:08,508 - D:\罗京\Projects\cmdb\cmdb\__init__.py[line:276] - ERROR: 'NoneType' object has no attribute 'multiple'
+2020-02-05 18:18:07,341 - D:\罗京\Projects\cmdb\cmdb\__init__.py[line:277] - ERROR: 'NoneType' object has no attribute 'multiple'
+2020-02-05 18:18:44,738 - D:\罗京\Projects\cmdb\cmdb\__init__.py[line:278] - ERROR: 'NoneType' object has no attribute 'multiple'
+2020-02-05 18:30:57,562 - D:\罗京\Projects\cmdb\cmdb\__init__.py[line:273] - ERROR: (mysql.connector.errors.IntegrityError) 1048 (23000): Column 'entity_id' cannot be null
+[SQL: INSERT INTO value (createtime, updatetime, is_delete, value, field_id, entity_id) VALUES (%(createtime)s, %(updatetime)s, %(is_delete)s, %(value)s, %(field_id)s, %(entity_id)s)]
+[parameters: {'createtime': datetime.datetime(2020, 2, 5, 18, 30, 57, 546839), 'updatetime': datetime.datetime(2020, 2, 5, 18, 30, 57, 546839), 'is_delete': 0, 'value': '127.0.0.1', 'field_id': 2, 'entity_id': None}]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+2020-02-05 18:34:15,082 - D:\罗京\Projects\cmdb\cmdb\__init__.py[line:274] - ERROR: (mysql.connector.errors.IntegrityError) 1048 (23000): Column 'entity_id' cannot be null
+[SQL: INSERT INTO value (createtime, updatetime, is_delete, value, field_id, entity_id) VALUES (%(createtime)s, %(updatetime)s, %(is_delete)s, %(value)s, %(field_id)s, %(entity_id)s)]
+[parameters: {'createtime': datetime.datetime(2020, 2, 5, 18, 34, 15, 82902), 'updatetime': datetime.datetime(2020, 2, 5, 18, 34, 15, 82902), 'is_delete': 0, 'value': '127.0.0.1', 'field_id': 2, 'entity_id': None}]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+2020-02-05 18:34:29,142 - D:\罗京\Projects\cmdb\cmdb\__init__.py[line:274] - ERROR: (mysql.connector.errors.IntegrityError) 1048 (23000): Column 'entity_id' cannot be null
+[SQL: INSERT INTO value (createtime, updatetime, is_delete, value, field_id, entity_id) VALUES (%(createtime)s, %(updatetime)s, %(is_delete)s, %(value)s, %(field_id)s, %(entity_id)s)]
+[parameters: {'createtime': datetime.datetime(2020, 2, 5, 18, 34, 29, 142080), 'updatetime': datetime.datetime(2020, 2, 5, 18, 34, 29, 142080), 'is_delete': 0, 'value': '127.0.0.1', 'field_id': 2, 'entity_id': None}]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+2020-02-05 18:49:14,330 - D:\罗京\Projects\cmdb\cmdb\__init__.py[line:277] - ERROR: 'NoneType' object has no attribute '__dict__'
+2020-02-06 17:06:50,709 - D:\罗京\Projects\cmdb\cmdb\__init__.py[line:305] - ERROR: Invalid value because value is not unique
+2020-02-10 10:54:11,658 - D:\罗京\Projects\cmdb\cmdb\__init__.py[line:36] - ERROR: Cannot delete field ip because there are dependencies
+2020-02-13 12:41:40,578 - D:\罗京\Projects\cmdb\cmdb\__init__.py[line:327] - ERROR: Invalid value
+2020-02-13 12:45:05,662 - D:\罗京\Projects\cmdb\cmdb\__init__.py[line:327] - ERROR: Invalid value
+2020-02-13 12:55:22,780 - D:\罗京\Projects\cmdb\cmdb\__init__.py[line:327] - ERROR: Invalid value
+2020-02-13 12:58:18,127 - D:\罗京\Projects\cmdb\cmdb\__init__.py[line:327] - ERROR: Invalid value
+2020-02-13 12:59:15,335 - D:\罗京\Projects\cmdb\cmdb\__init__.py[line:326] - ERROR: Invalid value
+2020-02-13 13:05:46,699 - D:\罗京\Projects\cmdb\cmdb\__init__.py[line:326] - ERROR: Invalid value
+2020-02-13 13:19:24,637 - D:\罗京\Projects\cmdb\cmdb\__init__.py[line:326] - ERROR: Invalid value
+2020-02-13 13:22:50,679 - D:\罗京\Projects\cmdb\cmdb\__init__.py[line:326] - ERROR: Invalid value
+2020-02-13 14:30:11,844 - D:\罗京\Projects\cmdb\cmdb\__init__.py[line:326] - ERROR: Invalid value
+2020-02-13 14:31:57,214 - D:\罗京\Projects\cmdb\cmdb\__init__.py[line:326] - ERROR: Invalid value
+2020-02-13 14:32:10,448 - D:\罗京\Projects\cmdb\cmdb\__init__.py[line:327] - ERROR: Invalid value
+2020-02-14 02:41:18,066 - D:\罗京\Projects\cmdb\cmdb\__init__.py[line:506] - ERROR: Invalid value
+2020-02-14 02:42:25,935 - D:\罗京\Projects\cmdb\cmdb\__init__.py[line:506] - ERROR: Invalid value
+2020-02-14 02:43:25,132 - D:\罗京\Projects\cmdb\cmdb\__init__.py[line:506] - ERROR: <cmdb.models.Value object at 0x000002537EC25A88> does not appear to be an IPv4 or IPv6 address
+2020-02-14 02:44:16,568 - D:\罗京\Projects\cmdb\cmdb\__init__.py[line:507] - ERROR: <cmdb.models.Value object at 0x00000210EA6C5B48> does not appear to be an IPv4 or IPv6 address
+2020-02-14 02:45:38,160 - D:\罗京\Projects\cmdb\cmdb\__init__.py[line:505] - ERROR: Invalid value
+2020-02-14 02:47:30,638 - D:\罗京\Projects\cmdb\cmdb\__init__.py[line:507] - ERROR: <cmdb.models.Value object at 0x00000161F5D25BC8> does not appear to be an IPv4 or IPv6 address
+2020-02-14 02:52:20,582 - D:\罗京\Projects\cmdb\cmdb\__init__.py[line:507] - ERROR: 'str' object has no attribute 'value'
+2020-02-14 10:05:01,107 - D:\罗京\Projects\cmdb\cmdb\__init__.py[line:506] - ERROR: Object <cmdb.models.Value object at 0x000001AA1F654AC8> is not legal as a SQL literal value
+2020-02-14 13:28:03,480 - D:\罗京\Projects\cmdb\cmdb\__init__.py[line:506] - ERROR: Invalid value
+2020-02-14 16:58:54,125 - D:\罗京\Projects\cmdb\cmdb\__init__.py[line:272] - ERROR: Python type Field cannot be converted
+2020-02-16 15:51:32,008 - D:\projects\cmdb\cmdb\__init__.py[line:328] - ERROR: Invalid value because value is not unique
+2020-02-16 18:12:10,190 - D:\projects\cmdb\cmdb\__init__.py[line:328] - ERROR: Invalid value because value is not unique
+2020-02-18 01:39:49,451 - D:\projects\cmdb\cmdb\__init__.py[line:328] - ERROR: Invalid value because value is not unique
+2020-02-18 13:09:29,110 - D:\projects\cmdb\cmdb\__init__.py[line:340] - ERROR: Invalid value because value is not unique
+2020-02-18 13:11:09,061 - D:\projects\cmdb\cmdb\__init__.py[line:340] - ERROR: Invalid value because value is not unique
+2020-02-18 13:13:23,276 - D:\projects\cmdb\cmdb\__init__.py[line:341] - ERROR: Invalid value because value is not unique
+2020-02-22 18:26:03,517 - E:\cmdb\cmdb\__init__.py[line:36] - ERROR: Cannot delete field ip because there are dependencies
+2020-02-22 19:13:21,895 - E:\cmdb\cmdb\__init__.py[line:345] - ERROR: 'NoneType' object has no attribute 'get'
+2020-02-22 19:16:46,491 - E:\cmdb\cmdb\__init__.py[line:345] - ERROR: 'NoneType' object has no attribute 'get'
+2020-02-22 19:18:55,158 - E:\cmdb\cmdb\__init__.py[line:345] - ERROR: 'NoneType' object has no attribute 'get'
+2020-02-22 19:20:13,376 - E:\cmdb\cmdb\__init__.py[line:345] - ERROR: 'NoneType' object has no attribute 'get'
